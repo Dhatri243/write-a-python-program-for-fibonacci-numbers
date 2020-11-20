@@ -1,0 +1,14 @@
+1.a=0
+2.b=1
+3.n=int(input("Enter No.of fibonacci numbers : "))
+4.if n<=0:
+5.print(" Not possible")
+6.elif n==1:
+7.print(a)
+8.elif n>=2:
+9.print("{},{}".format(a,b),end='')
+10.For i in range(2,n) :
+11.c=a+b
+12.print(", {}".format(c),end='')
+13.a=b
+14.b=c
